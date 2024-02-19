@@ -1,0 +1,16 @@
+---
+import Profile from './Profile.astro'
+---
+
+<header class="fixed top-0 z-10 w-full flex justify-around items-center py-5 mx-auto bg-inherit opacity-90">
+  <a href="/"><img class=" rounded-full w-12 h-12 mx-3" src="https://via.placeholder.com/10" alt="company logo"></a>
+
+  <nav class="flex flex-row justify-evenly flex-wrap sm:flex-nowrap gap-x-10">
+    <a class="hover:underline hover:opacity-80" href="/">Home</a>
+    <a class="hover:underline hover:opacity-80" href="/all-products">All Products</a>
+    <a class="hover:underline hover:opacity-80" href="/about-us">About Us</a>
+    <a class="hover:underline hover:opacity-80" href="/support">Support</a>
+    
+  </nav>
+  <Profile class="size-10"/>
+</header>
